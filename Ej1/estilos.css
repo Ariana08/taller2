@@ -1,0 +1,116 @@
+html, body {
+background-color: #191919;
+}
+header{
+    background-image:url(/img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    font:bold;
+}
+h1{
+    color: #ffff;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+}
+h2{
+    color: #ffff;
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
+}
+h3{
+    color: #ffff;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+}
+h4{
+    color: #F2D701;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+h5{
+    color:#ffff;
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+}
+h6{
+    color:#ffff;
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+}
+p{ 
+    color: #ffff;
+    font-size: 13px;
+    margin: 0;
+    padding: 10px;
+}
+ button{
+ background-color:#F2D701;
+ color: #191919;
+ width: 500px; 
+ height: 28px;
+}
+.Opiniones img{
+    width:90px;
+    border-radius: 100%;
+    align-items:center;
+}
+.Opiniones {
+display: flex;
+flex-direction: row;
+align-items: Center;
+padding: 10px;
+}
+.TextoOp{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+.TarjetaForm{
+    background-image:url(/img/Group\ 17.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+
+.Card1{
+    text-align: center;
+    align-items: center;
+}
+.Card1 img{
+    width: 499px;
+}
+footer{
+    background-image:url(/img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    text-align: center;
+}
+.RedesBoton{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.SeccionVideos{
+    text-align: center;
+}
+.Videos{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}

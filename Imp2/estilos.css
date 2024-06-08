@@ -1,0 +1,56 @@
+.C.header img {
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.Card1{
+    height: 678px;
+    width: 100%;
+    background-image: url(/img/card1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Card1 h1 {
+    color: #fff;
+    font-size: 62px;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-left: 5%;
+    margin-top: 0%; 
+}
+
+ .Card1 p {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif; 
+    margin-left: 5%;
+    width: 30%;
+ }
+
+ .Card1 button{
+    background-color: #F2D701;
+    border: none;
+    width: 100%;
+    max-width: 660px;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding:0.5%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+ }
+
+ .Card1 a {
+    color: #191919;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 62px;
+    font-family: "Barlow Condensed", sans-serif;
+
+ }
+
+ .Banner img{
+    width: 100%;
+ }

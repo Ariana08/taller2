@@ -1,0 +1,667 @@
+body{
+    background-color: #191919;
+    margin: 0px;
+    width: 100%;
+}
+h2{
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 50px;
+    color:#fff;
+}
+h4{
+    font-family:"Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color:#F2D701;
+}
+
+.C-header img {
+    width: 100%;
+    height: 84px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+}
+.Card1{
+    height: 677px;
+    width: 100%;
+    background-image: url(/img/card1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Card1 h1 {
+    width: 50%;
+    color: #fff;
+    font-size: 62px;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-left: 5%;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+}
+
+ .Card1 p {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif; 
+    margin-left: 5%;
+    width: 30%;
+    margin-bottom: 2%;
+ }
+
+ .Card1 button{
+    background-color: #F2D701;
+    border: none;
+    width: 100%;
+    max-width: 660px;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding:0.5%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+ }
+
+ .Card1 a {
+    color: #191919;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 62px;
+    font-family: "Barlow Condensed", sans-serif;
+
+ }
+.tiempo p {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Kanit", sans-serif; 
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+ 
+ .contador{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 5%;
+    margin-bottom: 2%;
+    color:#fff;
+    font-size: 62px;
+    font-family: "Barlow Condensed", sans-serif;
+ }
+.Banner{
+display: flex; 
+align-self: start;    
+}
+ .Banner img{
+    width: 100%;
+ }
+ @media(max-width:700px) {
+    .Card1{
+        height: 677px;
+        width: 100%;
+        background-image: url(/img/f-res.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    .Card1 h1{
+        width: 100%;
+        font-size:24px ;
+    }
+    .Card1 p{
+        width: 100%;
+        font-size: 16px;
+        
+    }
+    .contador{
+       margin-left: 35%;
+       font-size: 26px;
+    }
+    .Card1 button{
+        margin-left: 35%;
+        margin-top: 420px;
+        width: 80%;
+        max-width: 207px;
+        height: 28px;
+        border-radius: 6px;
+    }
+    .Card1 a {
+        font-size: 15px;
+    }
+    .C-header img {
+        width: 100%;
+        height: 58px;
+    }
+ }
+
+.Card2 h1{
+   color: #fff;
+   font-family: "Barlow Condensed", sans-serif;
+   font-size: 50px;
+   margin-left: 5%;
+}
+.Card2 p{
+    color: #fff;
+    font-family: "Kanit", sans-serif; 
+    font-size: 32px;
+    margin-left: 5%;
+ }
+
+ .textobullet1 h1, .textobullet2 h1, .textobullet3 h1{
+    display:flex ;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+    font-size: 32px;
+}
+
+.textobullet1 p, .textobullet2 p, .textobullet3 p{
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+    font-size: 20;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+ .Bullet1, .Bullet2, .Bullet3{
+    display: flex;
+    justify-content:start;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.BGeneral{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-left: 5%;
+}
+
+@media (max-width:800px) {
+    .Card2 h1{
+        font-size: 24px;
+        margin-left: 10%;
+    }
+    .Card2 p{
+        font-size: 13px;
+        font-weight: 300;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .BGeneral{
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column; 
+}
+.textobullet1 h1, .textobullet2 h1, .textobullet3 h1{
+    font-size: 16px;
+}
+.textobullet1 p, .textobullet2 p, .textobullet3 p{
+    font-size: 13px;
+    font-weight: 200;
+}
+}
+.coment{
+    width: 100%;
+}
+.coment h2{
+    text-align: center;
+    float: end;
+}
+.tarjetasopiniones{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben en la actual */
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.Opiniones{
+    margin-left:  5%;
+    background-color: #2C2C2C;
+    width: 623px;
+    height: 313px;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Opiniones p{
+    margin: 0pc;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    color:#fff;
+    font-family:"Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.Opiniones .p-1{
+    padding-bottom:40px ;
+}
+.TextoOp {
+    padding-top: 10px;
+    padding-left: 60px;
+    position: relative;
+    display: flex;
+    bottom: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.pdn{
+    margin-left: 25px;
+    width: 50%;
+    float:right;
+}
+.TextoOp h6{
+    font-family: 'Kanit',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding:0%;
+    color: #fff;
+    margin: 0px;
+}
+.pdn h4{
+    margin: 0%;
+    width: 100%;
+    font-family:"Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color:#F2D701;
+}
+@media (max-width:800px) {
+.tarjetasopiniones{
+margin-left: 25%;
+
+}
+.coment h2 {
+    font-size:24px ;
+}
+.coment h4 {
+    font-size:16px ;
+}
+.TextoOp h6 {
+    font-size:11px ;
+}
+.Opiniones{
+    width: 300px;
+    height: 155px;
+}
+.Opiniones p{
+    font-size: 15px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    font-weight: 300;
+}
+.TextoOp img{
+    width: 47px;
+}
+}
+.SeccionVideos{
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.SeccionVideos h2{
+    text-align: center;
+    float: end;
+    font-family:"Barlow Condensed", sans-serif;
+    font-weight: 700;
+}
+@media (max-width: 700px){
+    .SeccionVideos h2{
+        font-size: 24px;
+    }
+
+
+}
+.carousel{
+    width: 100%;
+    margin: 41px;
+    display: flex;
+    align-content: center;
+}
+@media(max-width:768px){
+    .carousel{
+        margin: 0px;
+    }
+}
+.carrusel-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    padding: 10px, 0px;
+    margin:0%;
+    max-width: 92vw;
+    overflow: hidden;
+}
+.carrusel-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: transform 2s ease-in-out;
+    padding: 0px;
+}
+.carrusel{
+    margin-left: auto;
+    margin-bottom: 40px;
+    position: relative;
+    width: 650px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center;
+}
+.carrusel img{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    transition: 1s ease-in-out;
+    border: 5px solid #000000;
+    /* align-items: center; */
+    display: block;
+    margin: auto;
+}
+@media (max-width: 700px){
+    .carrusel img{
+        width: 300px;
+    }
+}
+.carrusel-arrow{
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.8);
+    position:absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+ }
+.carrusel-arrow:focus{
+    outline: 0;
+}
+.carrusel-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.carrusel-prev{
+    left:0px;
+}
+.carrusel-next{
+    right: 0px;
+}
+ 
+.show{
+    display: flex;
+}
+.card-5{
+    background-image: url(img/form.png);
+    width: auto;
+    height: 830px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+ }
+
+ .formulario{
+    width: 100%;
+    display: block;
+ }
+ .cont-fin{
+    display:flex;
+ }
+ .formulario p{
+    margin-top:36px;
+    margin-bottom: 36px;
+    font-size: 32px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+ }
+ .f-1{
+    width: 100%;
+ }
+ .formulario .control{
+    font-size: 32px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    /* border: 5px solid #5E0C0C; Borde con grosor de 5px */
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    height: 60px;
+}
+form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;/* Centra el contenido horizontalmente */
+    align-items:flex-start; 
+    height: 100%;
+    margin-left: 40px;
+}
+input::placeholder {
+    color: hsl(0, 3%, 20%); /* Color del placeholder */
+  }
+  .card-5 h4{
+    text-align: center;
+    font-size: 36px;
+    font-family: "kanit", sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin-bottom:5px ;
+    margin-top: 0%;
+}
+.card-5 h2{
+    text-align:  center;
+    font-size: 50px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    margin-top:20px ;
+    margin-bottom:10px ;
+}
+.tam-img2{
+    width: 454px;
+    height:auto; 
+    border:0px solid;
+    padding: 0px;
+
+}
+.image-button2 {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.relleno{
+    margin-top:0px ;
+    margin-left: 30px;
+    width: 50%;
+    height: auto;
+    display: block;
+    justify-content: center
+}
+.relleno .boton-vent{
+    font-size: 36px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    height: 63px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 6px;
+    color: #F2D701;
+    margin-top: 377px;
+    line-height: 63px;
+}
+.relleno .control{
+    font-size: 32px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    /* border: 5px solid #5E0C0C; Borde con grosor de 5px */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+@media (max-width: 700px){
+   .card-5 h4{
+       font-size: 16px;
+   }
+   .card-5 h2{
+    font-size: 24px;
+   }
+.f-1 p, .relleno p{
+    font-size: 20px;
+}
+.cont-fin{
+    display:block;
+}
+.relleno{
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+}
+.relleno .boton-vent{
+    margin-top: 150px;
+}
+form{
+ width: 80%;
+}
+
+}
+
+.ventana {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.contenido{
+    background-image: url(img/form2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:50% ;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.show{
+    display: flex;
+}
+.text{
+    width: 40%;
+    margin-top: 128px;
+    margin-left: 125px;
+}
+.contenido h4{
+    margin: 0%;
+    font-family: "kanit", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+}
+.contenido p{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+    width: 100%;
+}
+/* -------------- */
+.btn-cerrar{
+    margin-top: 85px;
+    text-align: center;
+    background-color: rgb(0,0,0);
+    border-radius: 6px;
+}
+.btn-cerrar label{
+    color:#F2D701;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
+.cerrar-vent{
+
+    width: 50%;
+    height: 70px;
+    text-align: center;
+}
+#Elnombre{
+    font-size: 62px;
+    font-family:"Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFF;
+}
+
+@media (max-width: 700px){
+    .contenido{
+        background-image: url(img/form3.png);}
+        .text{
+            font-size: 24px;
+            width: 80%;
+        margin-top: 5%;}
+        .text p{
+            font-size: 35px;
+            margin-top: 5%;
+        }
+        .text h4{
+            font-size: 16px;
+            margin-top: 5%;
+        }
+        .btn-cerrar{
+            margin-top: 10%;
+        }
+}
